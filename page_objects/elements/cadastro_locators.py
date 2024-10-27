@@ -1,0 +1,40 @@
+class CadastroLocators:
+    TXT_TITLE = "//h1[@class='jss26']"
+    IMG_LOGO = "//img[contains(@src, 'nav-dasa')]"
+    TXT_PRIMEIRA_VEZ = '//*[@id="root"]/div[2]/div[3]/div/div[2]/div[1]/div[1]/p[1]/text()'
+    TXT_INFORME_PERFIL = '//*[@id="root"]/div[2]/div[3]/div/div[2]/div[1]/div[1]/p[2]'
+    BTN_SOU_PROFISSIONAL = '//*[@id="root"]/div[2]/div[3]/div/div[2]/div[2]/button[1]/span[1]'
+    BTN_SOU_PACIENTE = '//*[@id="root"]/div[2]/div[3]/div/div[2]/div[2]/button[2]/span[1]'
+    BTN_AJUDA = '//*[@id="root"]/div[1]/a/div/button/span[1]/img'
+
+    BTN_VOLTAR = '//*[@id="root"]/div[2]/div[3]/div/div[1]/button/span[1]/span'
+    TXT_INSIRA_CPF = '//*[@id="root"]/div[2]/div[3]/div/div[2]/div[1]/h2'
+    TXT_SUBTITULO_CPF = '//*[@id="root"]/div[2]/div[3]/div/div[2]/div[1]/p/text()'
+    INP_CPF = '//*[@id="root"]/div[2]/div[3]/div/div[2]/div[1]/div/div/input'
+    BTN_PROXIMO = '//*[@id="root"]/div[2]/div[3]/div/div[2]/div[2]/button/span[1]'
+    TXT_TERMOS = '//*[@id="root"]/div[2]/div[3]/div/div[2]/div[2]/div/a'
+
+    TXT_PASSO1DE5 = ''
+    TXT_INSIRA_DADOS_PESSOAIS = ''
+    INP_PRIMEIRO_NOME = ''
+    INP_SOBRENOME = ''
+    INP_DATA_NASCIMENTO = ''
+    RD_BTN_FAMININO = ''
+
+    TXT_PASSO2DE5 = ''
+    TXT_INSERIR_DADOS_PROFISSIONAIS = ''
+    LST_CONSELHO = ''
+    LST_OPC_CRM = ''
+    LST_UF = ''
+    LST_OPC_SP = ''
+    INP_NUM_REGISTRO = ''
+    LST_ESPECIALIDADES = ''
+    LST_ESPECIALIDADES_PEDIATRIA = ''
+    TXT_GESTAO_SAUDE = ''
+
+    IMG_ALERTA = ''
+    TXT_NAO_FOI_POSSIVEL_PROSSEGUIR = ''
+    TXT_ENCONTRADOS_DIVERGENCIAS = ''
+    LNK_TELEFONE_SUPORTE = ''
+    BTN_FECHAR = 'fechar'
+    BTN_ABRIR_UM_CHAMADO = 'abrirUmChamado'
